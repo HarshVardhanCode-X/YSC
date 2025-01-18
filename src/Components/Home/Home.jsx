@@ -16,16 +16,19 @@ import { FiLogOut } from "react-icons/fi";
 
 export default function Home() {
   return (
-    <div>
-      <div>
-        <div className="flex h-screen items-center justify-center bg-blue-100">
-          <h1 className="text-4xl font-bold text-blue-600">
-            HOME !
-          </h1>
+    <div className="bg-[#f7f7f7] min-h-screen w-64 shadow-md">
+      <div className="p-4">
+        <div className="relative">
+          <span className="absolute inset-y-0 left-0 flex items-center pl-3 text-gray-500">
+            <FaSearch />
+          </span>
+          <input
+            type="text"
+            placeholder="Search here"
+            className="pl-10 px-4 py-2 border border-gray-300 rounded-full w-full"
+          />
         </div>
       </div>
-
-      
       <div className="p-4">
         <ul className="space-y-2 cursor-pointer">
           <li className="flex items-center p-2 rounded-md text-gray-700 hover:bg-gray-200">
