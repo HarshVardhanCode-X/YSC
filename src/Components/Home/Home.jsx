@@ -1,6 +1,8 @@
 import React from 'react'
 import Sidebar from '../Sidebar/Sidebar'
 import CustomCalendar from '../Calender/Calender';
+import WeeklyGraph from '../Graph/Graph';
+//import WeeklyGraph from '../Graph/Graph';
 
 
 function Home() {
@@ -14,7 +16,10 @@ function Home() {
     <>
     <div className='flex'>
       <Sidebar />
+      <WeeklyGraph />
       <CustomCalendar markedDates={markedDates} />
+      
+      
     </div>
 
     </>

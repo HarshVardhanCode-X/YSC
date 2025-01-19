@@ -95,10 +95,7 @@ export default function Sidebar() {
           {!isCollapsed && <span>Setting</span>}
         </li>
       </ul>
-      
-
-    </div>
-    <div className="p-4">
+      <div className="p-4">
   <button
     className={`flex items-center p-2 w-full text-gray-700 hover:bg-gray-200 rounded-md ${
       isCollapsed ? "justify-center" : ""
@@ -108,6 +105,9 @@ export default function Sidebar() {
     {!isCollapsed && <span>Logout</span>}
   </button>
 </div>
+
+    </div>
+    
   </div>  
   </div>
   </div>
