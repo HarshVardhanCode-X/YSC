@@ -6,14 +6,14 @@ import { Link } from 'react-router-dom';
 function Register() {
     return (
         <>
-            <div className="h-screen max-h-screen flex items-center justify-center bg-gradient-to-r from-blue-50 via-purple-50 to-indigo-100">
-                <div className="flex flex-wrap max-h-screen justify-evenly w-full bg-gradient-to-r from-blue-50 via-purple-50 to-indigo-100 rounded-lg overflow-hidden">
+            <div className="min-h-screen flex items-center justify-center bg-gradient-to-r from-blue-50 via-purple-50 to-indigo-100 overflow-scroll">
+                <div className="flex flex-wrap justify-evenly w-full bg-gradient-to-r from-blue-50 via-purple-50 to-indigo-100 rounded-lg overflow-hidden">
 
                     <div className="flex-col items-center justify-center w-full max-w-xl md:w-1/2 p-8">
                         <h2 className="text-4xl font-bold text-gray-800 pt-2 mb-2">Create Your Account</h2>
                         <p className="text-gray-600 mb-6">Join us and get started with Youth Space Council!</p>
 
-                        <form className='flex-col items-center justify-center max-h-[60vh]'>
+                        <form className='flex-col items-center justify-center'>
                             <div className="mb-4">
                                 <input
                                     type="text"
