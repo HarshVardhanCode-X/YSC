@@ -6,14 +6,14 @@ import { Link } from 'react-router-dom';
 function Register() {
     return (
         <>
-            <div className="min-h-screen flex items-center justify-center bg-gradient-to-r from-blue-50 via-purple-50 to-indigo-100">
-                <div className="flex justify-evenly w-full bg-gradient-to-r from-blue-50 via-purple-50 to-indigo-100 rounded-lg overflow-hidden">
+            <div className="h-screen max-h-screen flex items-center justify-center bg-gradient-to-r from-blue-50 via-purple-50 to-indigo-100">
+                <div className="flex flex-wrap max-h-screen justify-evenly w-full bg-gradient-to-r from-blue-50 via-purple-50 to-indigo-100 rounded-lg overflow-hidden">
 
-                    <div className="w-full max-w-xl md:w-1/2 p-8">
-                        <h2 className="text-4xl font-bold text-gray-800 pt-4 mb-4">Create Your Account</h2>
-                        <p className="text-gray-600 mb-8">Join us and get started with Youth Space Council!</p>
+                    <div className="flex-col items-center justify-center w-full max-w-xl md:w-1/2 p-8">
+                        <h2 className="text-4xl font-bold text-gray-800 pt-2 mb-2">Create Your Account</h2>
+                        <p className="text-gray-600 mb-6">Join us and get started with Youth Space Council!</p>
 
-                        <form>
+                        <form className='flex-col items-center justify-center max-h-[60vh]'>
                             <div className="mb-4">
                                 <input
                                     type="text"
@@ -77,7 +77,7 @@ function Register() {
                         </div>
                     </div>
 
-                    <div className="hidden md:block w-full content-center md:w-1/2 max-w-xl bg-gradient-to-r from-blue-50 via-purple-50 to-indigo-100 relative">
+                    <div className="hidden md:block w-full content-center md:w-1/2 md-h-[600px] max-w-xl bg-transparent relative">
                         <img
                             src='./Images/new.webp'
                             alt="Illustration"

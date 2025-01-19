@@ -6,7 +6,7 @@ function Login() {
 
     return (
         <>
-            <div className="min-h-screen flex items-center justify-center bg-gradient-to-r from-blue-50 via-purple-50 to-indigo-100">
+            <div className="h-screen flex items-center justify-center bg-gradient-to-r from-blue-50 via-purple-50 to-indigo-100">
                 <div className="flex justify-evenly w-full bg-gradient-to-r from-blue-50 via-purple-50 to-indigo-100 rounded-lg overflow-hidden">
 
                     <div className="w-full max-w-xl md:w-1/2 p-8">
@@ -64,7 +64,7 @@ function Login() {
                         </div>
                     </div>
 
-                    <div className="hidden md:block w-full md:w-1/2 max-w-xl bg-gradient-to-r from-blue-50 via-purple-50 to-indigo-100 relative">
+                    <div className="hidden md:block w-full md:w-1/2 md:h-[600px] max-w-xl bg-transparent relative">
                         <img
                             src='./Images/new.webp'
                             alt="Illustration"
