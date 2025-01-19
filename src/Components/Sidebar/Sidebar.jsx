@@ -18,14 +18,14 @@ export default function Sidebar() {
   const [isCollapsed, setIsCollapsed] = useState(false);
 
   return (
-    <div className={`flex`}>
-      {/* Sidebar */}
+    <div className="flex text-[15px]">
+    
       <div
         className={`${
           isCollapsed ? "w-20" : "w-64"
         } bg-[#f7f7f7] min-h-screen shadow-md transition-all duration-300`}
       >
-        {/* Toggle Button */}
+        
         <div className="flex justify-end p-2">
           <button
             onClick={() => setIsCollapsed(!isCollapsed)}
@@ -35,7 +35,7 @@ export default function Sidebar() {
           </button>
         </div>
 
-        {/* Search Bar */}
+        
         {!isCollapsed && (
           <div className="p-4">
             <div className="relative">
@@ -51,7 +51,7 @@ export default function Sidebar() {
           </div>
         )}
 
-        {/* Menu */}
+        
         <div className="p-4">
           <ul className="space-y-2 cursor-pointer">
             <li className="flex items-center p-2 rounded-md text-gray-700 hover:bg-gray-200">
@@ -101,7 +101,7 @@ export default function Sidebar() {
           </ul>
         </div>
 
-        {/* Logout Button */}
+        
         <div className="bottom-4 w-full px-4">
           <button className="flex items-center p-2 w-full text-gray-700 hover:bg-gray-200 rounded-md">
             <FiLogOut className="mr-3" />
