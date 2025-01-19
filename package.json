@@ -10,9 +10,18 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@fullcalendar/core": "^6.1.15",
+    "@fullcalendar/daygrid": "^6.1.15",
+    "@fullcalendar/interaction": "^6.1.15",
+    "@fullcalendar/react": "^6.1.15",
+    "@fullcalendar/timegrid": "^6.1.15",
+    "@googleapis/calendar": "^9.7.9",
     "browser": "^0.2.6",
     "browser-router": "^0.2.0",
+    "calendar": "^0.1.1",
     "react": "^18.3.1",
+    "react-calendar": "^5.1.0",
+    "react-datepicker": "^7.6.0",
     "react-dom": "^18.3.1",
     "react-icons": "^5.4.0",
     "react-router-dom": "^7.1.3",
