@@ -2,6 +2,7 @@ import React from 'react'
 import Sidebar from '../Sidebar/Sidebar'
 import CustomCalendar from '../Calender/Calender';
 
+
 function Home() {
 
   const markedDates = [
